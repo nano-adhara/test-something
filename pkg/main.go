@@ -1,11 +1,13 @@
 package main
 
-import "github.com/nano-adhara/test-commons/pkg/other"
+import (
+	"github.com/nano-adhara/test-commons/pkg/other"
+	"github.com/nano-adhara/test-commons/pkg/some"
+)
 
 func main() {
-	Foo()
 }
 
-func Foo() {
-	other.Bar()
+func Foo(some some.Some) {
+	other.Bar(some)
 }
