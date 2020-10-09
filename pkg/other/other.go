@@ -1,5 +1,5 @@
 package other
 
-func FooBar() {
+func Bar() {
 
 }
